@@ -1,25 +1,29 @@
-# [PROJECT TITLE]
+# Kippstufen
 
-[![release](https://img.shields.io/github/v/release/[GITHUB_USER]/[REPOSITORY]?label=release)](https://github.com/[GITHUB_USER]/[REPOSITORY]/releases)
-[![Build](https://github.com/[GITHUB_USER]/[REPOSITORY]/actions/workflows/build.yml/badge.svg)](https://github.com/[GITHUB_USER]/[REPOSITORY]/actions/workflows/build.yml)
+[![release](https://img.shields.io/github/v/release/TIH-engineering/Kippstufen?label=release)](https://github.com/TIH-engineering/Kippstufen/releases)
+[![Build](https://github.com/TIH-engineering/Kippstufen/actions/workflows/build.yml/badge.svg)](https://github.com/TIH-engineering/Kippstufen/actions/workflows/build.yml)
 ![Hardware](https://img.shields.io/badge/Hardware-KiCad-blue)
 ![License](https://img.shields.io/badge/License-CC--BY--NC--SA--4.0-lightgrey)
 
 ## 🔌 Leiterplattenbeschreibung
 
-Die Leiterplatte **[PROJECT TITLE]** wurde für [kurze Beschreibung des Einsatzzwecks] entwickelt.
+Die Leiterplatte **Kippstufen** dient zur Untersuchung verschiedener digitaler Grundschaltungen und Kippstufen. Sie wurde insbesondere für den Einsatz im Elektroniklabor und zur praktischen Ergänzung des Unterrichts entwickelt.
 
-[Hier 2–4 Sätze zur Funktion der Leiterplatte, zum Aufbau und zum vorgesehenen Einsatz.]
+Auf der Leiterplatte sind unterschiedliche Schaltungsvarianten realisiert:
 
-### Funktionen
+- **diskret aufgebaute Kippstufen** mit Transistoren
+- **Kippstufe mit NE555-Timer**
+- **bistabile Kippstufe** mit Logik-IC
+- **monostabile Kippstufe** mit Logik-IC
+- **astabile Kippstufe** mit Logik-IC
 
-- [Funktion / Schaltung 1]
-- [Funktion / Schaltung 2]
-- [Funktion / Schaltung 3]
+Über Taster und Steckverbinder können die Schaltungen angesteuert und unterschiedliche Betriebsarten untersucht werden. LEDs dienen zur optischen Anzeige der jeweiligen Ausgangszustände.
 
-[Optionaler Absatz zu besonderen Eigenschaften, Messpunkten, austauschbaren Bauteilen, Schnittstellen usw.]
+Bei der diskret aufgebauten Kippstufe ermöglichen Jumper die Konfiguration als **bistabile, monostabile oder astabile Kippstufe**. Zusätzlich sind Messanschlüsse vorgesehen, unter anderem zur Untersuchung der Kondensatorspannungen.
 
-> **Einsatzgebiet:** [Kurze Beschreibung des vorgesehenen Einsatzes]
+Die Leiterplatte eignet sich damit zur praktischen Untersuchung von **Schaltzuständen, Zeitverhalten, Rückkopplung und Oszillation** bei unterschiedlichen Realisierungen von Kippstufen.
+
+> **Einsatzgebiet:** Laborübungen und Unterricht im Bereich Digitaltechnik / Elektronik
 
 ---
 
@@ -61,10 +65,10 @@ Die Dateien werden automatisch durch den Release-Workflow erzeugt.
 
 | Eigenschaft | Wert |
 |---|---|
-| **Projekt** | [PROJECT TITLE] |
+| **Projekt** | Kippstufen |
 | **Software** | KiCad 10 |
-| **Repository** | [GITHUB_USER]/[REPOSITORY] |
-| **Autor** | [NAME] |
+| **Repository** | TIH-engineering/Kippstufen |
+| **Autor** | TIH |
 | **Lizenz** | CC BY-NC-SA 4.0 |
 
 ---
